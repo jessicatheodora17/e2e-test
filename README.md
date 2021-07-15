@@ -32,9 +32,9 @@ after UI Cypress appeared, on the top right click `Run all Specs`
 ## REPORTING
 how to access report from test without UI (make sure folder report exist (generated after run test))
 ```bash
-yarn run html-report
+yarn run posttest
 ```
-
+to see Screenshot go to ` cypress/reports/videos `
 ## NOTES
 The test may have failed because of this following reasons : 
   - Slow Internet Connection
